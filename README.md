@@ -30,14 +30,14 @@ I post it here, in the hope that it can be useful to others.
 
 ## Usage:
 
-MergeImages.exe  <outfile> <file1> <file2> [file3 [...]]
-Parameter | Meaning
---------- | -------
-outfile | The file to create with merged data
-file1 | First   file to binary merge
-file2 | Second  file to binary merge
-file3 | Third   file to binary merge
-...   | more... files to binary merge
+    MergeImages.exe  <outfile> <file1> <file2> [file3 [...]]
+    Parameter | Meaning
+    --------- | -------
+    outfile   | The file to create with merged data
+    file1     | First   file to binary merge
+    file2     | Second  file to binary merge
+    file3     | Third   file to binary merge
+    ...       | more... files to binary merge
 
 Requirements/Limitations:
 * All files must be multiple of 512 bytes.
